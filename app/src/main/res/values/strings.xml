@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HiApp</string>
+    <string name="et_hint_email">E-mail</string>
+    <string name="et_hint_pwd">Password</string>
+</resources>

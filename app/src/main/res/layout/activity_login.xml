@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zeroli.hiapp.LoginActivity"
+    android:background="@drawable/img_login">
+
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="If you are\na dreamer come in"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_et"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/img_btn_input">
+            <View
+                android:layout_width="18dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/icon_email"/>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="40dp"
+                android:layout_centerVertical="true"
+                android:hint="@string/et_hint_email"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/rl_email"
+            android:background="@drawable/img_btn_input">
+
+            <View
+                android:layout_width="18dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/icon_pwd" />
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:hint="@string/et_hint_pwd" />
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Log In"
+        android:layout_below="@id/rl_et"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/img_sign_up"/>
+
+
+</RelativeLayout>
