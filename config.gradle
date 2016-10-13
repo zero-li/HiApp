@@ -1,0 +1,54 @@
+/**
+ * 环境配置
+ *
+ */
+
+ext{
+
+    android = [
+            compileSdkVersion: 23,
+            buildToolsVersion: "23.0.2",
+
+            minSdkVersion: 14,
+            targetSdkVersion: 22,
+
+            versionCode: 1,
+            versionName: "0.0.0"
+    ]
+
+
+    dependencies = [
+            "appcompat-v7"          : "com.android.support:appcompat-v7:23.4.0",
+            "cardview-v7"           : "com.android.support:cardview-v7:23.+",
+            "recyclerview-v7"       : "com.android.support:recyclerview-v7:23.4.0",
+            "dedesign"              : "com.android.support:design:23.4.0",
+            "support-v4"            : "com.android.support:support-v4:23.+",
+            "support-annotations"   : "com.android.support:support-annotations:23.+",
+
+            "multidex"     : "com.android.support:multidex:1.0.1",   //分包
+            "butterknife"  : "com.jakewharton:butterknife:7.0.1",        //view注解
+            "logger"       : "com.orhanobut:logger:1.13",            //打印日志
+            "fastjson"     : "com.alibaba:fastjson:1.2.8",           //json解析封装框架
+            "photoview"    : "com.github.chrisbanes.photoview:library:1.2.4",    //图片缩放
+            "glide"        : "com.github.bumptech.glide:glide:3.6.1",        //显示图片框架
+            "picasso"      : "com.squareup.picasso:picasso:2.5.2",
+
+            //retrofit和rxjava
+            "retrofit"                  : "com.squareup.retrofit2:retrofit:2.0.0-beta3",
+            "retrofit-converter-gson"   : "com.squareup.retrofit2:converter-gson:2.0.0-beta4",
+            "retrofit-adapter-rxjava"   : "com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4",
+            "rxjava"                    : "io.reactivex:rxjava:1.0.1",
+            "rxandroid"                 : "io.reactivex:rxandroid:1.0.0",
+
+
+
+            "umeng-analytics"     : "com.umeng.analytics:analytics:latest.integration",//友盟统计
+
+
+
+
+
+    ]
+
+}
+
