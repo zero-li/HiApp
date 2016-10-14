@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#FFFFFF</color>
 
+    <!--87%white-->
+    <color name="progress_bar_unfinished">#D4D4D4</color>
 </resources>
