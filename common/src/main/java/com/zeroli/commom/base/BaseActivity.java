@@ -4,13 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
 import com.umeng.analytics.MobclickAgent;
 import com.zeroli.commom.baseapp.AppManager;
-import com.zeroli.commom.utils.TUtil;
+import com.zeroli.commom.commonutils.TUtil;
 
 import butterknife.ButterKnife;
 
@@ -57,8 +56,8 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
 
 
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
         doBeforSetContentView();
         setContentView(getContentViewLayoutId());

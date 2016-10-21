@@ -1,4 +1,4 @@
-package com.zeroli.commom.utils;
+package com.zeroli.commom.commonutils;
 
 import java.lang.reflect.ParameterizedType;
 

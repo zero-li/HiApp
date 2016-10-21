@@ -1,4 +1,4 @@
-package com.zeroli.commom.utils;
+package com.zeroli.commom.commonutils;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -91,8 +91,8 @@ public class ToastUitl {
      * @param imageResource
      * @return
      */
-   /* public static Toast showToastWithImg(final String tvStr, final int imageResource) {
-        if (toast2 == null) {
+   public static Toast showToastWithImg(final String tvStr, final int imageResource) {
+        /*if (toast2 == null) {
             toast2 = new Toast(BaseApplication.getAppContext());
         }
         View view = LayoutInflater.from(BaseApplication.getAppContext()).inflate(R.layout.toast_custom, null);
@@ -108,7 +108,8 @@ public class ToastUitl {
         toast2.setView(view);
         toast2.setGravity(Gravity.CENTER, 0, 0);
         toast2.show();
-        return toast2;
+        return toast2;*/
+       return null;
 
-    }*/
+    }
 }
