@@ -193,7 +193,7 @@ public class AdViewpagerUtil {
                 if (i < length - 2) {
                     final int index = i;
                     final String url = urls[i];
-                    ImageLoaderUtils.display(context, mImageViews[i + 1], url);
+                    ImageLoaderUtil.display(context, mImageViews[i + 1], url);
                     mImageViews[i + 1].setOnClickListener(new View.OnClickListener() {
 
                         @Override
@@ -206,8 +206,8 @@ public class AdViewpagerUtil {
                     });
                 }
             }
-            ImageLoaderUtils.display(context, mImageViews[0], urls[urls.length - 1]);
-            ImageLoaderUtils.display(context, mImageViews[length - 1], urls[0]);
+            ImageLoaderUtil.display(context, mImageViews[0], urls[urls.length - 1]);
+            ImageLoaderUtil.display(context, mImageViews[length - 1], urls[0]);
         }
     }
 

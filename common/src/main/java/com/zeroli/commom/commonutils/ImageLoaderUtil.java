@@ -18,7 +18,7 @@ import java.io.File;
 /**
  * Description : 图片加载工具类 使用glide框架封装
  */
-public class ImageLoaderUtils {
+public class ImageLoaderUtil {
 
     public static void display(Context context, ImageView imageView, String url, int placeholder, int error) {
         if (imageView == null) {

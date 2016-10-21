@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.zeroli.commom.commonutils.CollectionUtils;
+import com.zeroli.commom.commonutils.CollectionUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +32,7 @@ public class BaseFragmentAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         //return super.getPageTitle(position);
-        return !CollectionUtils.isNullOrEmpty(mTittles) ? mTittles.get(position) : "";
+        return !CollectionUtil.isNullOrEmpty(mTittles) ? mTittles.get(position) : "";
     }
 
     @Override

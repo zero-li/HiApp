@@ -9,7 +9,7 @@ import java.util.Collection;
 /**
  * 集合操作类
  */
-public class CollectionUtils {
+public class CollectionUtil {
 
     public static boolean isNullOrEmpty(Collection c){
         if(c == null || c.isEmpty()){
