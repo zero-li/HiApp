@@ -60,7 +60,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         super.onCreate(savedInstanceState);
 
         doBeforSetContentView();
-        setContentView(getContentViewLayoutId());
+        setContentView(getLayoutId());
         ButterKnife.bind(this);
 
         mContext = this;
@@ -96,7 +96,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
      * 子类实现
      *****************************/
     // 获取布局文件
-    public abstract int getContentViewLayoutId();
+    public abstract int getLayoutId();
 
     // mvp场景
     public abstract void initPresenter();
