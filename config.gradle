@@ -21,7 +21,7 @@ ext{
             "appcompat-v7"          : "com.android.support:appcompat-v7:23.4.0",
             "cardview-v7"           : "com.android.support:cardview-v7:23.+",
             "recyclerview-v7"       : "com.android.support:recyclerview-v7:23.4.0",
-            "dedesign"              : "com.android.support:design:23.4.0",
+            "design"              : "com.android.support:design:23.4.0",
             "support-v4"            : "com.android.support:support-v4:23.+",
             "support-annotations"   : "com.android.support:support-annotations:23.+",
 
@@ -39,6 +39,8 @@ ext{
             "retrofit-adapter-rxjava"   : "com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4",
             "rxjava"                    : "io.reactivex:rxjava:1.0.1",
             "rxandroid"                 : "io.reactivex:rxandroid:1.0.0",
+            "logging-interceptor"       : "com.squareup.okhttp3:logging-interceptor:3.1.2",
+
 
 
 
