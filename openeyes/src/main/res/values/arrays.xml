@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cache_container_tab_title">
+        <item>手动缓存</item>
+        <item>日报自动缓存</item>
+    </string-array>
+    <string-array name="category_container_tab_title">
+        <item>按时间排序</item>
+        <item>按分享排序</item>
+    </string-array>
+    <string-array name="feed_container_tab_title">
+        <item>精选</item>
+        <item>发现</item>
+        <item>关注</item>
+        <item>我的</item>
+    </string-array>
+    <string-array name="home_page_tab_uri">
+        <item>selected</item>
+        <item>discovery</item>
+        <item>userfollow</item>
+        <item>my</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="pref_entries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888X</item>
+        <item>YV12</item>
+    </string-array>
+    <string-array name="pref_entries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888X</item>
+        <item>YV12</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_values_pixel_format">
+        <item></item>
+        <item>fcc-rv16</item>
+        <item>fcc-rv32</item>
+        <item>fcc-yv12</item>
+    </string-array>
+    <string-array name="pref_entry_values_player">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="rank_container_tab_title">
+        <item>周排行</item>
+        <item>月排行</item>
+        <item>总排行</item>
+    </string-array>
+    <string-array name="video_landing_subtitles">
+        <item>Daily appetizers for your eyes, as always</item>
+        <item>Subscribe more, discover a whole lot more</item>
+        <item>Enjoy your daily eyepétit, even without connectivity</item>
+        <item>Sign in to comment &amp; collect videos, to subscript also</item>
+    </string-array>
+    <string-array name="video_landing_title">
+        <item>每日编辑精选，一如既往</item>
+        <item>关注越多，发现越多</item>
+        <item>离线自动缓存，精彩永不下线</item>
+        <item>登录即可订阅、评论和同步已收藏视频</item>
+    </string-array>
+</resources>

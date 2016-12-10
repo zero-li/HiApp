@@ -68,6 +68,11 @@ public class BigImagePagerActivity extends BaseActivity {
     }
 
     @Override
+    public boolean initFullScreen() {
+        return false;
+    }
+
+    @Override
     public int getLayoutId() {
         return R.layout.act_image_pager;
     }

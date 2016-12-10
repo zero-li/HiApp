@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:duration="@integer/anim_activity_slide_time"
+           android:fromYDelta="100.0%p"
+           android:interpolator="@anim/aggravate_decelerate_interpolator"
+           android:toYDelta="0.0"/>

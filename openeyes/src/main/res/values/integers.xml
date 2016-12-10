@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="anim_activity_slide_time">350</integer>
+    <integer name="anim_fade_in_out_time">350</integer>
+    <integer name="anim_landing_icon_rotate">1000</integer>
+    <integer name="anim_landing_step1_time">2000</integer>
+    <integer name="anim_landing_step2_time">1500</integer>
+    <integer name="anim_landing_step3_time">1500</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <item type="integer" name="common_image_ratio">1.725</item>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="video_detail_cover_image_scale_time">5000</integer>
+</resources>

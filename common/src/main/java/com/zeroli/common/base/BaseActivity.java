@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
+import android.view.WindowManager;
 
 import com.umeng.analytics.MobclickAgent;
 import com.zeroli.common.BuildConfig;
@@ -87,6 +88,8 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
      * 设置layout前配置
      */
     private void doBeforeSetcontentView() {
+        // 是否全屏
+        setFullScreen();
         //设置昼夜主题
         initTheme();
         // 把actvity放到application栈中管理
@@ -100,12 +103,22 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
 
     }
     /*********************子类实现*****************************/
+    //
+    public abstract boolean initFullScreen();
     //获取布局文件
     public abstract int getLayoutId();
     //简单页面无需mvp就不用管此方法即可,完美兼容各种实际场景的变通
     public abstract void initPresenter();
     //初始化view
     public abstract void initView();
+
+    public void setFullScreen(){
+        if (initFullScreen()){
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        }
+    }
+
 
 
     /**
@@ -118,7 +131,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
      * 着色状态栏（4.4以上系统有效）
      */
     protected void SetStatusBarColor(){
-        StatusBarCompat.setStatusBarColor(this, ContextCompat.getColor(this,R.color.main_color));
+        StatusBarCompat.setStatusBarColor(this, ContextCompat.getColor(this,R.color.alpha_85_black));
     }
     /**
      * 着色状态栏（4.4以上系统有效）

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FA7C20</color>
-    <color name="colorPrimaryDark">#FA7C20</color>
-    <color name="colorAccent">#FA7C20</color>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="colorAccent">#FFFFFFFF</color>
     <!--白天主题-->
     <color name="day_backgroup_color">#FFFFFFFF</color>
     <color name="day_one_text_color">#FF000000</color>
@@ -14,7 +14,7 @@
     <color name="night_two_text_color">#8A9599</color>
     <color name="night_there_text_color">#8A9599</color>
     <!-- app主色调-->
-    <color name="main_color">#FA7C20</color>
+    <color name="main_color">#D9000000</color><!-- alpha black 85-->
     <color name="orange">#FA8C20</color>
     <color name="wheel_divider_line_color">#FF000000</color>
     <color name="wheel_item_text_color_selected">#FF0288ce</color>
